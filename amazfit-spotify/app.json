@@ -1,0 +1,35 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1099001,
+    "appName": "Spoti Mando",
+    "appType": "app",
+    "version": { "code": 1, "name": "1.0.0" },
+    "icon": "icon.png",
+    "vender": "personal",
+    "description": "Controla Spotify, tus listas y canciones desde el reloj"
+  },
+  "permissions": ["data:os.device.info"],
+  "runtime": {
+    "apiVersion": { "compatible": "3.0.0", "target": "3.0.0", "minVersion": "3.0.0" }
+  },
+  "debug": false,
+  "targets": {
+    "common": {
+      "module": {
+        "page": {
+          "pages": ["page/home/index.page", "page/playlists/index.page", "page/tracks/index.page"]
+        },
+        "app-side": { "path": "app-side/index" },
+        "setting": { "path": "setting/index" }
+      },
+      "platforms": [{ "st": "r" }],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "es-ES": { "appName": "Spoti Mando" },
+    "en-US": { "appName": "Spoti Remote" }
+  },
+  "defaultLanguage": "es-ES"
+}

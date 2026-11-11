@@ -1,0 +1,1 @@
+{ "compilerOptions": { "checkJs": false, "module": "ESNext", "target": "ES2020" } }

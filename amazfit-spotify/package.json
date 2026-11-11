@@ -1,0 +1,18 @@
+{
+  "name": "amazfit-spotify-remote",
+  "version": "1.0.0",
+  "description": "Mando de Spotify para Amazfit Cheetah (Zepp OS 3) que funciona con iPhone",
+  "private": true,
+  "scripts": {
+    "dev": "zeus dev",
+    "build": "zeus build",
+    "preview": "zeus preview",
+    "test": "node --test shared/*.test.mjs"
+  },
+  "dependencies": {
+    "@zeppos/zml": "0.0.43"
+  },
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0"
+  }
+}
