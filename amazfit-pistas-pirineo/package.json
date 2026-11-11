@@ -1,0 +1,16 @@
+{
+  "name": "pistas-pirineo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App Zepp OS para Amazfit Cheetah Round: pistas de esquí del Pirineo aragonés",
+  "main": "app.js",
+  "scripts": {
+    "datos": "node scripts/fetch-pistes.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "zeus build",
+    "preview": "zeus preview"
+  },
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0"
+  }
+}
